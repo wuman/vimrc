@@ -55,6 +55,19 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" vimtip#80 restore cursor to file position in previous editing session
+set viminfo='10,\"100,:20,%,n~/.viminfo
+function! ResCur()
+  if line("'\"") <= line("$")
+    normal! g`"
+    return 1
+  endif
+endfunction
+augroup resCur
+  autocmd!
+  autocmd BufWinEnter * call ResCur()
+augroup END
+
 
 "
 " Formatting
@@ -147,4 +160,66 @@ fun! Big5()
 	set encoding=big5
 	set fileencoding=big5
 endfun
+
+
+"
+" Shortcuts
+"
+" set leader to ,
+let mapleader=","
+let g:mapleader=","
+
+" move around splits
+map <C-J> <C-W>j<C-W>_       " move to and maximize the below split
+map <C-K> <C-W>k<C-W>_       " move to and maximize the above split
+nmap <c-h> <c-w>h<c-w><bar>  " move to and maximize the left split
+nmap <c-l> <c-w>l<c-w><bar>  " move to and maximize the right split
+set wmw=0                    " set the min width of a window to 0 so we can maximize others 
+set wmh=0                    " set the min height of a window to 0 so we can maximize others
+
+" move around tabs
+" WARN: conflict with the original screen top/bottom, comment them out if you want the original H/L
+map <S-H> gT                 " go to prev tab
+map <S-L> gt                 " go to next tab
+
+map <C-t><C-t> :tabnew<CR>      " new tab
+map <C-t><C-w> :tabclose<CR>    " close tab
+
+nmap <leader>/ :nohl<CR>        " ,/ turns off search highlighting
+
+" bash like keys for the command line
+cnoremap <C-A> <Home>
+cnoremap <C-E> <End>
+cnoremap <C-K> <C-U>
+
+" ,p toggles paste mode
+nmap <leader>p :set paste!<BAR>set paste?<CR>
+
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
+
+" Enable omni completion. (Ctrl-X Ctrl-O)
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete
+
+" use syntax complete if nothing else available
+if has("autocmd") && exists("+omnifunc")
+  autocmd Filetype *
+    \ if &omnifunc == "" |
+    \     setlocal omnifunc=syntaxcomplete#Complete |
+    \ endif
+endif
+
+set cot-=preview             " disable doc preview in omnicomplete
+
+" make CSS omnicompletion work for SASS and SCSS
+autocmd BufNewFile,BufRead *.scss set ft=scss.css
+autocmd BufNewFile,BufRead *.sass set ft=sass.css
+
 
