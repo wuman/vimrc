@@ -3,15 +3,20 @@ wuman's vimrc
 Author: David Wu <david@wu-man.com>
 
 
+REFERENCE
+---------
+
+This is a fork of vgod's vimrc (https://github.com/vgod/vimrc).
+
+
 INSTALLATION
 ------------
 
-1. Check out from github
+Use curl (for Mac OS X):
 
-        git clone git://github.com/wuman/vimrc.git ~/.vim
+    curl -o - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
 
-2. Create symlinks:
+or wget (for most UNIX platforms):
 
-        ln -s ~/.vim/vimrc ~/.vimrc
-        ln -s ~/.vim/gvimrc ~/.gvimrc
+    wget -O - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
 
