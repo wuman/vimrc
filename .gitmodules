@@ -4,3 +4,6 @@
 [submodule "bundle/peaksea"]
 	path = bundle/peaksea
 	url = git://github.com/vim-scripts/peaksea.git
+[submodule "bundle/wombat256"]
+	path = bundle/wombat256
+	url = git://github.com/vim-scripts/wombat256.vim.git
