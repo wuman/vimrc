@@ -1,0 +1,3 @@
+[submodule "bundle/moria"]
+	path = bundle/moria
+	url = git://github.com/vim-scripts/moria.git
