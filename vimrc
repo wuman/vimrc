@@ -42,9 +42,9 @@ set hlsearch                 " highlight search results
 set cursorline               " highlight current line
 
 set background=dark          " set background dark
+set t_Co=256                 " 256 color mode
 
 if has("gui_running")
-  set t_Co=256               " 256 color mode
   colorscheme moria
 else
   colorscheme wombat256mod
