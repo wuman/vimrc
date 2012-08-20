@@ -16,3 +16,6 @@
 [submodule "bundle/vim-json-bundle"]
 	path = bundle/vim-json-bundle
 	url = https://github.com/vim-scripts/vim-json-bundle.git
+[submodule "bundle/sourcebeautify"]
+	path = bundle/sourcebeautify
+	url = https://github.com/vim-scripts/sourcebeautify.vim.git
