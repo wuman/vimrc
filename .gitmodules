@@ -1,3 +1,6 @@
 [submodule "bundle/moria"]
 	path = bundle/moria
 	url = git://github.com/vim-scripts/moria.git
+[submodule "bundle/peaksea"]
+	path = bundle/peaksea
+	url = git://github.com/vim-scripts/peaksea.git
