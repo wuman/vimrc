@@ -223,3 +223,8 @@ autocmd BufNewFile,BufRead *.scss set ft=scss.css
 autocmd BufNewFile,BufRead *.sass set ft=sass.css
 
 
+"
+" Plugins
+"
+" JSON.vim http://www.vim.org/scripts/script.php?script_id=1945
+au! BufRead,BufNewFile *.json set filetype=json

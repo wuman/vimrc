@@ -13,3 +13,6 @@
 [submodule "bundle/jsoncodecs"]
 	path = bundle/jsoncodecs
 	url = https://github.com/michalliu/jsoncodecs.vim.git
+[submodule "bundle/vim-json-bundle"]
+	path = bundle/vim-json-bundle
+	url = https://github.com/vim-scripts/vim-json-bundle.git
