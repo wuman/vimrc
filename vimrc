@@ -87,7 +87,12 @@ autocmd FileType Makefile set noexpandtab
 "
 syntax on                    " enable syntax highlighting
 set hlsearch                 " highlight search results
-set cursorline               " highlight current line
+" highlight current line in the current window
+augroup CursorLine
+  au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
+augroup END
 
 set background=dark          " set background dark
 set t_Co=256                 " 256 color mode
