@@ -165,6 +165,16 @@ endfun
 "
 " Shortcuts
 "
+" disable arrow keys and force hjkl
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
+
 " set leader to ,
 let mapleader=","
 let g:mapleader=","
