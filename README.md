@@ -32,6 +32,19 @@ You should also create your own custom excludes list to ignore tags:
 
 ### Mandatory Customized Plugin Installations ###
 
+#### jsruntime.vim ####
+
+A Javascript interpreter must be installed.
+
+For Ubuntu 32-bit, just use the built-in PyV8:
+
+    sudo ln -s ~/.vim/bundle/jsruntime/plugin/jsruntime/PyV8/libboost_python.so.1.50.0 /usr/lib
+
+For Ubuntu 64-bit, install node.js:
+
+    sudo apt-get install nodejs
+
+
 #### Command-T ####
 
 * Ensure that the installed vim is compiled with +ruby.
