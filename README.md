@@ -25,10 +25,23 @@ or wget (for most UNIX platforms):
 
     wget -O - https://raw.github.com/wuman/vimrc/master/auto-install.sh | sh
 
-You should probably also create your own custom excludes list to ignore tags:
+You should also create your own custom excludes list to ignore tags:
 
     git config --global core.excludesfile '~/.gitexcludes'
     echo tags > ~/.gitexcludes
+
+### Mandatory Customized Plugin Installations ###
+
+#### Command-T ####
+
+* Ensure that the installed vim is compiled with +ruby.
+
+* You will need to build the C extension for the Command-T plugin:
+
+        sudo apt-get install ruby-dev       # only needed for Ubuntu
+        cd ~/.vim/bundle/command-t/ruby/command-t
+        ruby extconf.rb
+        make
 
 
 UPDATES
