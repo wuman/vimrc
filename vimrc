@@ -228,3 +228,9 @@ autocmd BufNewFile,BufRead *.sass set ft=sass.css
 "
 " JSON.vim http://www.vim.org/scripts/script.php?script_id=1945
 au! BufRead,BufNewFile *.json set filetype=json
+
+" SuperTab-continued https://github.com/vim-scripts/SuperTab-continued.
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+
