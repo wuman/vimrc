@@ -40,3 +40,6 @@
 [submodule "bundle/autoclose-alves"]
 	path = bundle/autoclose-alves
 	url = https://github.com/vim-scripts/AutoClose--Alves.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/vim-scripts/snipMate.git
