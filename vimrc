@@ -242,3 +242,14 @@ let g:snipMateAllowMatchingDot = 0
 autocmd vimenter * if !argc() | NERDTree | endif
 " close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Command-T
+let g:CommandTMaxHeight = 15
+" fix key bindings https://wincent.com/blog/tweaking-command-t-and-vim-for-use-in-the-terminal-and-tmux
+set ttimeoutlen=50
+if &term =~ "xterm" || &term =~ "screen"
+  let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
+  let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
+  let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
+endif
+
