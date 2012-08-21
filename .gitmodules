@@ -37,3 +37,6 @@
 [submodule "bundle/OmniCppComplete"]
 	path = bundle/OmniCppComplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "bundle/autoclose-alves"]
+	path = bundle/autoclose-alves
+	url = https://github.com/vim-scripts/AutoClose--Alves.git
