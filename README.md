@@ -24,6 +24,11 @@ or wget (for most UNIX platforms):
 
     wget -O - https://raw.github.com/wuman/vimrc/master/auto-install.sh | sh
 
+You should probably also create your own custom excludes list to ignore tags:
+
+    git config --global core.excludesfile '~/.gitexcludes'
+    echo tags > ~/.gitexcludes
+
 
 UPDATES
 -------
