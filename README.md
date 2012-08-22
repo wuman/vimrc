@@ -82,6 +82,7 @@ PRE-INSTALLED PLUGINS
 * javacomplete
 * OmniCppComplete
 * SnipMate
+* SnipMate-snippets
 * vim-powerline
 * NERDTree
 * NERDCommenter
