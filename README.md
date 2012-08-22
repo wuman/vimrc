@@ -89,6 +89,7 @@ PRE-INSTALLED PLUGINS
 * EasyMotion
 * Indent-Motion
 * ZenCoding
+* xmledit
 
 
 PLUGIN INSTALLATION
