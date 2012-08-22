@@ -87,6 +87,7 @@ PRE-INSTALLED PLUGINS
 * NERDCommenter
 * Command-T
 * EasyMotion
+* Indent-Motion
 
 
 PLUGIN INSTALLATION
