@@ -268,3 +268,8 @@ if &term =~ "xterm" || &term =~ "screen"
   let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
 endif
 
+" EasyMotion
+" let g:EasyMotion_leader_key = '<Leader>'
+hi link EasyMotionTarget ErrorMsg
+hi link EasyMotionShade  Comment
+
