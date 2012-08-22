@@ -61,10 +61,32 @@ UPDATES
 -------
 
 Occasionally I will update my vimrc settings. If you had previously installed my
-vimrc settings and wish to pull new changes from my repo or plugin submodules,
-run the following script:
+vimrc settings and wish to pull new changes from my repo, or if you wish to pull
+in new changes from plugin submodules, run the following script:
 
     ~/.vim/update-vimrc.sh
+
+
+PRE-INSTALLED PLUGINS
+---------------------
+
+* jsruntime.vim
+* jsoncodecs
+* vim-json-bundle
+* sourcebeautify
+* vim-javascript
+* pythoncomplete
+* AutoClose by Thiao Alves
+* vim-surround
+* SuperTab-continued.
+* javacomplete
+* OmniCppComplete
+* SnipMate
+* vim-powerline
+* NERDTree
+* NERDCommenter
+* Command-T
+* EasyMotion
 
 
 PLUGIN INSTALLATION
