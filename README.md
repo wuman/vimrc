@@ -14,6 +14,12 @@ My vimrc settings are based extensively on the following:
 + spf13's ultimate vim distribution [spf13-vim](https://github.com/spf13/spf13-vim/blob/master/.vimrc)
 
 
+SCREENSHOTS
+-----------
+
+![screenshot1](http://4.bp.blogspot.com/-DjPEWTxfjvc/UDTFh7wzoZI/AAAAAAAAaik/clKhXIgT7JA/s1600/Screen+Shot+2012-08-22+at+7.40.52+PM.png)
+
+
 INSTALLATION
 ------------
 
