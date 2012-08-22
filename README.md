@@ -1,7 +1,7 @@
 wuman's vimrc
 =============
 
-Author: David Wu <david@wu-man.com>
+Author: David Wu <david@wu-man.com> <http://blog.wu-man.com>
 
 
 REFERENCE
