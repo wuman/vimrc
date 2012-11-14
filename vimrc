@@ -231,6 +231,10 @@ if has("autocmd") && exists("+omnifunc")
     \ endif
 endif
 
+" enable function folding
+set foldmethod=syntax
+set foldlevelstart=1
+
 set cot-=preview             " disable doc preview in omnicomplete
 
 " make CSS omnicompletion work for SASS and SCSS
@@ -243,6 +247,9 @@ autocmd BufNewFile,BufRead *.sass set ft=sass.css
 "
 " JSON.vim http://www.vim.org/scripts/script.php?script_id=1945
 au! BufRead,BufNewFile *.json set filetype=json
+
+" vim-javascript
+let javascript_fold=1
 
 " SuperTab-continued https://github.com/vim-scripts/SuperTab-continued.
 let g:SuperTabDefaultCompletionType = "context"
