@@ -233,7 +233,7 @@ endif
 
 " enable function folding
 set foldmethod=syntax
-set foldlevelstart=1
+set foldlevelstart=10
 
 set cot-=preview             " disable doc preview in omnicomplete
 
