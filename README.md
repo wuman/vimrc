@@ -62,6 +62,8 @@ For Ubuntu 64-bit, install node.js:
 
 * Ensure that the installed vim is compiled with +ruby.
 
+        sudo apt-get install vim-nox
+
 * You will need to build the C extension for the Command-T plugin:
 
         sudo apt-get install ruby-dev       # only needed for Ubuntu
