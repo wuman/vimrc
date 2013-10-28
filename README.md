@@ -95,7 +95,6 @@ PRE-INSTALLED PLUGINS
 * Command-T
 * EasyMotion
 * Indent-Motion
-* ZenCoding
 * xmledit
 
 

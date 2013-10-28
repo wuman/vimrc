@@ -58,9 +58,6 @@
 [submodule "bundle/indent-motion"]
 	path = bundle/indent-motion
 	url = https://github.com/vim-scripts/indent-motion.git
-[submodule "bundle/zencoding"]
-	path = bundle/zencoding
-	url = https://github.com/mattn/zencoding-vim.git
 [submodule "bundle/xmledit"]
 	path = bundle/xmledit
 	url = https://github.com/sukima/xmledit.git
