@@ -8,7 +8,8 @@
 " Environment
 "
 " pathogen (must be placed in the beginning of this file)
-call pathogen#runtime_append_all_bundles()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#incubate()
 call pathogen#helptags()
 
 "
