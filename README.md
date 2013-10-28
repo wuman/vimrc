@@ -38,6 +38,13 @@ You should also create your own custom excludes list to ignore tags:
 
 ### Mandatory Customized Plugin Installations ###
 
+#### Pathogen ####
+
+Starting in Ubuntu 10.04 there is a [bug](https://bugs.launchpad.net/ubuntu/+source/vim/+bug/572627)
+which prevents filetypes from being detected correctly.  In order to workaround
+the problem, simply comment out the `syntax on` line in `/etc/vim/vimrc`.
+
+
 #### jsruntime.vim ####
 
 A Javascript interpreter must be installed.
@@ -96,6 +103,7 @@ PRE-INSTALLED PLUGINS
 * EasyMotion
 * Indent-Motion
 * xmledit
+* vim-golang
 
 
 PLUGIN INSTALLATION
