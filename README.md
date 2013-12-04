@@ -132,3 +132,7 @@ To add a new plugin:
     cd ~/.vim
     git submodule add [GIT_REPOSITORY_URL] bundle/[PLUGIN_NAME]
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
