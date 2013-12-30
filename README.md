@@ -12,6 +12,7 @@ My vimrc settings are based extensively on the following:
 + [vgod's vimrc](https://github.com/vgod/vimrc)
 + [Amir Salihefendic's vimrc](http://amix.dk/vim/vimrc.html)
 + spf13's ultimate vim distribution [spf13-vim](https://github.com/spf13/spf13-vim/blob/master/.vimrc)
++ [Paul Rouget's vimrc](http://paulrouget.com/e/myconf/)
 
 
 SCREENSHOTS
