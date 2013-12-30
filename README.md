@@ -120,7 +120,7 @@ PRE-INSTALLED PLUGINS
 * [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
-* vim-powerline
+* [vim-airline][]: customized status/tabline for vim
 * NERDTree
 * NERDCommenter
 * Command-T
@@ -152,6 +152,7 @@ To add a new plugin:
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
+[vim-airline]: https://github.com/bling/vim-airline
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
