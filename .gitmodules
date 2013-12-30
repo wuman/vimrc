@@ -1,6 +1,3 @@
-[submodule "bundle/peaksea"]
-	path = bundle/peaksea
-	url = git://github.com/vim-scripts/peaksea.git
 [submodule "bundle/jsruntime"]
 	path = bundle/jsruntime
 	url = https://github.com/michalliu/jsruntime.vim.git
