@@ -111,6 +111,7 @@ PRE-INSTALLED PLUGINS
 * [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
+* [snipmate-nodejs][]: snipmate snippet for node.js
 * [vim-airline][]: customized status/tabline for vim
 * [tmuxline][]: tmux statusline generator
 * [vim-signify][]: shows vcs diff in the gutter area
@@ -157,6 +158,7 @@ My vimrc settings are based extensively on the following:
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
+[snipmate-nodejs]: https://github.com/jamescarr/snipmate-nodejs
 [vim-airline]: https://github.com/bling/vim-airline
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
 [vim-signify]: https://github.com/mhinz/vim-signify
