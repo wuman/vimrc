@@ -121,7 +121,7 @@ PRE-INSTALLED PLUGINS
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * [vim-airline][]: customized status/tabline for vim
-* [vim-gitgutter][]: shows git diff in the gutter area
+* [vim-signify][]: shows vcs diff in the gutter area
 * NERDTree
 * NERDCommenter
 * Command-T
@@ -154,7 +154,7 @@ To add a new plugin:
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 [vim-airline]: https://github.com/bling/vim-airline
-[vim-gitgutter]: https://github.com/airblade/vim-gitgutter
+[vim-signify]: https://github.com/mhinz/vim-signify
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
