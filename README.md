@@ -115,7 +115,7 @@ PRE-INSTALLED PLUGINS
 * [delimitMate][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * SuperTab-continued.
-* SnipMate
+* [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * vim-powerline
@@ -146,6 +146,7 @@ To add a new plugin:
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 [delimitMate]: https://github.com/Raimondi/delimitMate
 [vim-surround]: https://github.com/tpope/vim-surround
+[vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 
