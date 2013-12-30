@@ -109,6 +109,7 @@ PRE-INSTALLED PLUGINS
 * [OmniCppComplete][]: omni completion for c and c++
 * [delimitMate][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
+* [Tabular][]: text filtering and alignment
 * [SuperTab-continued][]: insert completion via tab
 * [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
@@ -158,6 +159,7 @@ My vimrc settings are based extensively on the following:
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 [delimitMate]: https://github.com/Raimondi/delimitMate
 [vim-surround]: https://github.com/tpope/vim-surround
+[Tabular]: https://github.com/godlygeek/tabular
 [SuperTab-continued]: https://github.com/vim-scripts/SuperTab-continued.
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
