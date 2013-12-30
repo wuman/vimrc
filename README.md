@@ -66,7 +66,11 @@ For Ubuntu 64-bit, install node.js:
 
         sudo apt-get install vim-nox
 
-  On Mac OS X, you may want to build and install your own version of vim:
+  On Mac OS X, you may install with homebrew:
+
+        brew install vim --override-system-vi
+
+  Alternatively, you may want to build and install your own version of vim:
 
         # download the latest source code
         hg clone https://code.google.com/p/vim/
