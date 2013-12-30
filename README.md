@@ -109,7 +109,7 @@ PRE-INSTALLED PLUGINS
 * [javacomplete][]: omni completion for java
 * [OmniCppComplete][]: omni completion for c and c++
 * AutoClose by Thiao Alves
-* vim-surround
+* [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * SuperTab-continued.
 * SnipMate
 * vim-snippets (formerly SnipMate-snippets)
@@ -140,6 +140,7 @@ To add a new plugin:
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
 [javacomplete]: https://github.com/vim-scripts/javacomplete
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
+[vim-surround]: https://github.com/tpope/vim-surround
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
