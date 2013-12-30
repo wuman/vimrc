@@ -85,3 +85,6 @@
 [submodule "bundle/bootstrap-snippets"]
 	path = bundle/bootstrap-snippets
 	url = https://github.com/bonsaiben/bootstrap-snippets
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = https://github.com/elzr/vim-json.git

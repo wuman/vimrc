@@ -103,6 +103,7 @@ PRE-INSTALLED PLUGINS
 
 * jsruntime.vim
 * jsoncodecs
+* vim-json
 * sourcebeautify
 * vim-javascript
 * pythoncomplete
