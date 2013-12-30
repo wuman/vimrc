@@ -112,7 +112,7 @@ PRE-INSTALLED PLUGINS
 * [pythoncomplete][]: omni completion for python
 * [javacomplete][]: omni completion for java
 * [OmniCppComplete][]: omni completion for c and c++
-* AutoClose by Thiao Alves
+* [delimitMate][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * SuperTab-continued.
 * SnipMate
@@ -144,6 +144,7 @@ To add a new plugin:
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
 [javacomplete]: https://github.com/vim-scripts/javacomplete
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
+[delimitMate]: https://github.com/Raimondi/delimitMate
 [vim-surround]: https://github.com/tpope/vim-surround
 
 
