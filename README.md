@@ -4,17 +4,6 @@ wuman's vimrc
 Author: David Wu <david@wu-man.com> <http://blog.wu-man.com>
 
 
-REFERENCE
----------
-
-My vimrc settings are based extensively on the following:
-
-+ [vgod's vimrc](https://github.com/vgod/vimrc)
-+ [Amir Salihefendic's vimrc](http://amix.dk/vim/vimrc.html)
-+ spf13's ultimate vim distribution [spf13-vim](https://github.com/spf13/spf13-vim/blob/master/.vimrc)
-+ [Paul Rouget's vimrc](http://paulrouget.com/e/myconf/)
-
-
 SCREENSHOTS
 -----------
 
@@ -142,6 +131,16 @@ To add a new plugin:
     cd ~/.vim
     git submodule add [GIT_REPOSITORY_URL] bundle/[PLUGIN_NAME]
 
+
+CREDITS
+-------
+
+My vimrc settings are based extensively on the following:
+
++ [vgod's vimrc](https://github.com/vgod/vimrc)
++ [Amir Salihefendic's vimrc](http://amix.dk/vim/vimrc.html)
++ spf13's ultimate vim distribution [spf13-vim](https://github.com/spf13/spf13-vim/blob/master/.vimrc)
++ [Paul Rouget's vimrc](http://paulrouget.com/e/myconf/)
 
 [vim-colorschemes]: https://github.com/flazz/vim-colorschemes
 [jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
