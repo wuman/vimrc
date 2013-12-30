@@ -113,7 +113,7 @@ PRE-INSTALLED PLUGINS
 * javacomplete
 * OmniCppComplete
 * SnipMate
-* SnipMate-snippets
+* vim-snippets (formerly SnipMate-snippets)
 * vim-powerline
 * NERDTree
 * NERDCommenter
