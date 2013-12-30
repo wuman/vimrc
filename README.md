@@ -50,13 +50,13 @@ For Ubuntu 64-bit, install node.js:
 
 #### Command-T ####
 
-* Ensure that the installed vim is compiled with +ruby.
+* Ensure that the installed vim is compiled with ``+ruby`.
 
-  On Ubuntu you can do that by simply installing vim-nox:
+  On Ubuntu you can do that by simply installing `vim-nox`:
 
         sudo apt-get install vim-nox
 
-  On Mac OS X, you may install with homebrew:
+  On Mac OS X, you may install with `homebrew`:
 
         brew install macvim --override-system-vi
         brew linkapps
@@ -75,7 +75,7 @@ For Ubuntu 64-bit, install node.js:
         rm -rf ./vim
         # then add /usr/local/bin to your $PATH
 
-* You will need to build the C extension for the Command-T plugin:
+* You will then need to build the C extension for the Command-T plugin:
 
         sudo apt-get install ruby-dev       # only needed for Ubuntu
         cd ~/.vim/bundle/command-t/ruby/command-t
