@@ -114,6 +114,7 @@ PRE-INSTALLED PLUGINS
 * OmniCppComplete
 * SnipMate
 * vim-snippets (formerly SnipMate-snippets)
+* bootstrap-snippets
 * vim-powerline
 * NERDTree
 * NERDCommenter
