@@ -98,6 +98,8 @@ augroup END
 
 set background=dark          " set background dark
 set t_Co=256                 " 256 color mode
+" use powerline fonts for vim-airline
+let g:airline_powerline_fonts = 1
 
 if has("gui_running")
   colorscheme moria
