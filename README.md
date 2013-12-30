@@ -106,6 +106,7 @@ in new changes from plugin submodules, run the following script:
 PRE-INSTALLED PLUGINS
 ---------------------
 
+* [vim-colorschemes][]: a collection of colorschemes for vim
 * [jsruntime.vim][]: runs javascript code directly in vim
 * [sourcebeautify][]: beautifies source code written in html, css, js, and json
 * [vim-javascript][]: syntax highlighting and indenting for javascript
@@ -141,6 +142,7 @@ To add a new plugin:
     git submodule add [GIT_REPOSITORY_URL] bundle/[PLUGIN_NAME]
 
 
+[vim-colorschemes]: https://github.com/flazz/vim-colorschemes
 [jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
 [vim-json]: https://github.com/elzr/vim-json
 [vim-golang]: https://github.com/jnwhiteh/vim-golang

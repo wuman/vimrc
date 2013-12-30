@@ -1,12 +1,6 @@
-[submodule "bundle/moria"]
-	path = bundle/moria
-	url = git://github.com/vim-scripts/moria.git
 [submodule "bundle/peaksea"]
 	path = bundle/peaksea
 	url = git://github.com/vim-scripts/peaksea.git
-[submodule "bundle/wombat256"]
-	path = bundle/wombat256
-	url = git://github.com/vim-scripts/wombat256.vim.git
 [submodule "bundle/jsruntime"]
 	path = bundle/jsruntime
 	url = https://github.com/michalliu/jsruntime.vim.git
@@ -100,3 +94,6 @@
 [submodule "bundle/tmuxline"]
 	path = bundle/tmuxline
 	url = https://github.com/edkolev/tmuxline.vim.git
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
