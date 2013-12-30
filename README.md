@@ -121,6 +121,7 @@ PRE-INSTALLED PLUGINS
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * [vim-airline][]: customized status/tabline for vim
+* [tmuxline][]: tmux statusline generator
 * [vim-signify][]: shows vcs diff in the gutter area
 * [syntastic][]: syntax checking for most programming languages
 * NERDTree
@@ -155,6 +156,7 @@ To add a new plugin:
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 [vim-airline]: https://github.com/bling/vim-airline
+[tmuxline]: https://github.com/edkolev/tmuxline.vim
 [vim-signify]: https://github.com/mhinz/vim-signify
 [syntastic]: https://github.com/scrooloose/syntastic
 
