@@ -68,7 +68,8 @@ For Ubuntu 64-bit, install node.js:
 
   On Mac OS X, you may install with homebrew:
 
-        brew install vim --override-system-vi
+        brew install macvim --override-system-vi
+        brew linkapps
 
   Alternatively, you may want to build and install your own version of vim:
 
