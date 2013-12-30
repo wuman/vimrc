@@ -101,6 +101,7 @@ PRE-INSTALLED PLUGINS
 * [sourcebeautify][]: beautifies source code written in html, css, js, and json
 * [vim-javascript][]: syntax highlighting and indenting for javascript
 * [vim-json][]: keyword highlighting and various customizations for json
+* [vim-node][]: tools and environment for developing with node.js in vim
 * [vim-jade][]: syntax highlighting for jade templates
 * [vim-golang][]: syntax highlighting, indentation, and many vim plugins for golang
 * [pythoncomplete][]: omni completion for python
@@ -147,6 +148,7 @@ My vimrc settings are based extensively on the following:
 [vim-colorschemes]: https://github.com/flazz/vim-colorschemes
 [jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
 [vim-json]: https://github.com/elzr/vim-json
+[vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
 [vim-golang]: https://github.com/jnwhiteh/vim-golang
 [sourcebeautify]: https://github.com/vim-scripts/sourcebeautify.vim
