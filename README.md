@@ -115,9 +115,9 @@ PRE-INSTALLED PLUGINS
 * [tmuxline][]: tmux statusline generator
 * [vim-signify][]: shows vcs diff in the gutter area
 * [syntastic][]: syntax checking for most programming languages
+* [Command-T][]: TextMate-like files and buffers opener
 * NERDTree
 * NERDCommenter
-* Command-T
 * EasyMotion
 * Indent-Motion
 * xmledit
@@ -161,6 +161,7 @@ My vimrc settings are based extensively on the following:
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
 [vim-signify]: https://github.com/mhinz/vim-signify
 [syntastic]: https://github.com/scrooloose/syntastic
+[Command-T]: https://github.com/wincent/Command-T
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
