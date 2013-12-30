@@ -110,12 +110,13 @@ PRE-INSTALLED PLUGINS
 * [sourcebeautify][]: beautifies source code written in html, css, js, and json
 * [vim-javascript][]: syntax highlighting and indenting for javascript
 * [vim-json][]: keyword highlighting and various customizations for json
+* [vim-golang][]: syntax highlighting, indentation, and many vim plugins for golang
 * [pythoncomplete][]: omni completion for python
 * [javacomplete][]: omni completion for java
 * [OmniCppComplete][]: omni completion for c and c++
 * [delimitMate][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
-* SuperTab-continued.
+* [SuperTab-continued][]: insert completion via tab
 * [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
@@ -126,7 +127,6 @@ PRE-INSTALLED PLUGINS
 * EasyMotion
 * Indent-Motion
 * xmledit
-* vim-golang
 
 
 PLUGIN INSTALLATION
@@ -140,6 +140,7 @@ To add a new plugin:
 
 [jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
 [vim-json]: https://github.com/elzr/vim-json
+[vim-golang]: https://github.com/jnwhiteh/vim-golang
 [sourcebeautify]: https://github.com/vim-scripts/sourcebeautify.vim
 [vim-javascript]: https://github.com/pangloss/vim-javascript
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
@@ -147,6 +148,7 @@ To add a new plugin:
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 [delimitMate]: https://github.com/Raimondi/delimitMate
 [vim-surround]: https://github.com/tpope/vim-surround
+[SuperTab-continued]: https://github.com/vim-scripts/SuperTab-continued.
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
