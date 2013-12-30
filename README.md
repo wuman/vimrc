@@ -116,8 +116,8 @@ PRE-INSTALLED PLUGINS
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * SuperTab-continued.
 * SnipMate
-* vim-snippets (formerly SnipMate-snippets)
-* bootstrap-snippets
+* [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
+* [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * vim-powerline
 * NERDTree
 * NERDCommenter
@@ -146,6 +146,8 @@ To add a new plugin:
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 [delimitMate]: https://github.com/Raimondi/delimitMate
 [vim-surround]: https://github.com/tpope/vim-surround
+[vim-snippets]: https://github.com/honza/vim-snippets
+[bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
