@@ -101,17 +101,16 @@ in new changes from plugin submodules, run the following script:
 PRE-INSTALLED PLUGINS
 ---------------------
 
-* jsruntime.vim
-* jsoncodecs
-* vim-json
-* sourcebeautify
-* vim-javascript
-* pythoncomplete
+* [jsruntime.vim][]: runs javascript code directly in vim
+* [sourcebeautify][]: beautifies source code written in html, css, js, and json
+* [vim-javascript][]: syntax highlighting and indenting for javascript
+* [vim-json][]: keyword highlighting and various customizations for json
+* [pythoncomplete][]: omni completion for python
+* [javacomplete][]: omni completion for java
+* [OmniCppComplete][]: omni completion for c and c++
 * AutoClose by Thiao Alves
 * vim-surround
 * SuperTab-continued.
-* javacomplete
-* OmniCppComplete
 * SnipMate
 * vim-snippets (formerly SnipMate-snippets)
 * bootstrap-snippets
@@ -133,6 +132,14 @@ To add a new plugin:
     cd ~/.vim
     git submodule add [GIT_REPOSITORY_URL] bundle/[PLUGIN_NAME]
 
+
+[jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
+[vim-json]: https://github.com/elzr/vim-json
+[sourcebeautify]: https://github.com/vim-scripts/sourcebeautify.vim
+[vim-javascript]: https://github.com/pangloss/vim-javascript
+[pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
+[javacomplete]: https://github.com/vim-scripts/javacomplete
+[OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
