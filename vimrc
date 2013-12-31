@@ -117,57 +117,40 @@ set ffs=unix,dos,mac         " use unix as standard file format
 
 
 "
-" Statusline
-"
-set laststatus=2
-set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
-set statusline+=\ \ \ [%{&ff}/%Y] 
-set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
-set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
-
-function! CurDir()
-    let curdir = substitute(getcwd(), $HOME, "~", "")
-    return curdir
-endfunction
-
-function! HasPaste()
-    if &paste
-        return '[PASTE]'
-    else
-        return ''
-    endif
-endfunction
-
-
-"
 " Files
 "
 set nobackup                 " no *~ backup files
 
 
 "
+" Statusline
+"
+set laststatus=2
+
+
+"
 " Encoding
 "
-set encoding=utf-8                                  
+set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 fun! ViewUTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
+  set encoding=utf-8
+  set termencoding=big5
 endfun
 
 fun! UTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
-	set fileencoding=utf-8
-	set fileencodings=ucs-bom,big5,utf-8,latin1
+  set encoding=utf-8
+  set termencoding=big5
+  set fileencoding=utf-8
+  set fileencodings=ucs-bom,big5,utf-8,latin1
 endfun
 
 fun! Big5()
-	set encoding=big5
-	set fileencoding=big5
+  set encoding=big5
+  set fileencoding=big5
 endfun
 
 
@@ -193,7 +176,7 @@ map <C-J> <C-W>j<C-W>_       " move to and maximize the below split
 map <C-K> <C-W>k<C-W>_       " move to and maximize the above split
 nmap <c-h> <c-w>h<c-w><bar>  " move to and maximize the left split
 nmap <c-l> <c-w>l<c-w><bar>  " move to and maximize the right split
-set wmw=0                    " set the min width of a window to 0 so we can maximize others 
+set wmw=0                    " set the min width of a window to 0 so we can maximize others
 set wmh=0                    " set the min height of a window to 0 so we can maximize others
 
 " move around tabs
