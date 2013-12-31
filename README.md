@@ -48,41 +48,6 @@ For Ubuntu 64-bit, install node.js:
     sudo apt-get install nodejs
 
 
-#### Command-T ####
-
-* Ensure that the installed vim is compiled with ``+ruby`.
-
-  On Ubuntu you can do that by simply installing `vim-nox`:
-
-        sudo apt-get install vim-nox
-
-  On Mac OS X, you may install with `homebrew`:
-
-        brew install macvim --override-system-vi
-        brew linkapps
-
-  Alternatively, you may want to build and install your own version of vim:
-
-        # download the latest source code
-        hg clone https://code.google.com/p/vim/
-        # build and install vim
-        cd vim
-        ./configure --prefix=/usr/local --enable-rubyinterp --enable-gui=no
-        make
-        sudo make install
-        # delete the source files
-        cd ..
-        rm -rf ./vim
-        # then add /usr/local/bin to your $PATH
-
-* You will then need to build the C extension for the Command-T plugin:
-
-        sudo apt-get install ruby-dev       # only needed for Ubuntu
-        cd ~/.vim/bundle/command-t/ruby/command-t
-        ruby extconf.rb
-        make # or rake make for Mac
-
-
 UPDATES
 -------
 
@@ -120,7 +85,7 @@ PRE-INSTALLED PLUGINS
 * [tmuxline][]: tmux statusline generator
 * [vim-signify][]: shows vcs diff in the gutter area
 * [syntastic][]: syntax checking for most programming languages
-* [Command-T][]: TextMate-like files and buffers opener
+* [ctrlp.vim][]: TextMate-like fuzzy files and buffers opener
 * NERDTree
 * NERDCommenter
 * EasyMotion
@@ -171,7 +136,7 @@ My vimrc settings are based extensively on the following:
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
 [vim-signify]: https://github.com/mhinz/vim-signify
 [syntastic]: https://github.com/scrooloose/syntastic
-[Command-T]: https://github.com/wincent/Command-T
+[ctrlp.vim]: https://github.com/kien/ctrlp.vim
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
