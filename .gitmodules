@@ -103,3 +103,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-nodejs-complete"]
+	path = bundle/vim-nodejs-complete
+	url = https://github.com/myhere/vim-nodejs-complete.git
