@@ -98,8 +98,6 @@ augroup END
 
 set background=dark          " set background dark
 set t_Co=256                 " 256 color mode
-" use powerline fonts for vim-airline
-let g:airline_powerline_fonts = 1
 
 if has("gui_running")
   colorscheme moria
@@ -233,6 +231,9 @@ autocmd BufNewFile,BufRead *.sass set ft=sass.css
 " Plugins
 "
 " vim-airline
+set timeout timeoutlen=1000 ttimeoutlen=50
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'bubblegum'
 let g:airline#extensions#tabline#enabled = 1
 " uncomment lines below to define straight tab separators
 "let g:airline#extensions#tabline#left_sep = ' '
