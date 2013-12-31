@@ -232,6 +232,12 @@ autocmd BufNewFile,BufRead *.sass set ft=sass.css
 "
 " Plugins
 "
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+" uncomment lines below to define straight tab separators
+"let g:airline#extensions#tabline#left_sep = ' '
+"let g:airline#extensions#tabline#left_alt_sep = '|'
+
 " JSON.vim http://www.vim.org/scripts/script.php?script_id=1945
 au! BufRead,BufNewFile *.json set filetype=json
 
