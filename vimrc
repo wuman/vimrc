@@ -246,6 +246,9 @@ let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc
 " SnipMate
 let g:snipMateAllowMatchingDot = 0
 
+" ctrlp.vim
+let g:ctrlp_max_files = 500
+
 " NERDTree
 " open a NERDTree automatically when vim starts up if no files were specified
 autocmd vimenter * if !argc() | NERDTree | endif
