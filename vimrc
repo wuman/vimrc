@@ -255,6 +255,7 @@ let g:snipMateAllowMatchingDot = 0
 
 " ctrlp.vim
 let g:ctrlp_max_files = 500
+let g:ctrlp_working_path_mode = 'c'
 
 " NERDTree
 " open a NERDTree automatically when vim starts up if no files were specified
