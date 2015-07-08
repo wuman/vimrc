@@ -68,7 +68,6 @@ PRE-INSTALLED PLUGINS
 * [vim-json][]: keyword highlighting and various customizations for json
 * [vim-node][]: tools and environment for developing with node.js in vim
 * [vim-jade][]: syntax highlighting for jade templates
-* [vim-golang][]: syntax highlighting, indentation, and many vim plugins for golang
 * [vim-nodejs-complete][]: omni completion for node.js
 * [pythoncomplete][]: omni completion for python
 * [javacomplete][]: omni completion for java
@@ -117,7 +116,6 @@ My vimrc settings are based extensively on the following:
 [vim-json]: https://github.com/elzr/vim-json
 [vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
-[vim-golang]: https://github.com/jnwhiteh/vim-golang
 [sourcebeautify]: https://github.com/vim-scripts/sourcebeautify.vim
 [vim-javascript]: https://github.com/pangloss/vim-javascript
 [vim-nodejs-complete]: https://github.com/myhere/vim-nodejs-complete
