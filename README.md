@@ -34,6 +34,14 @@ Starting in Ubuntu 10.04 there is a [bug](https://bugs.launchpad.net/ubuntu/+sou
 which prevents filetypes from being detected correctly.  In order to workaround
 the problem, simply comment out the `syntax on` line in `/etc/vim/vimrc`.
 
+#### vim-autoformat ####
+
+Install the following external formatting programs to enable vim-autoformat:
+
+    npm install -g js-beautify
+    brew install astyle
+    brew install tidy-html5
+
 
 UPDATES
 -------
@@ -50,6 +58,7 @@ PRE-INSTALLED PLUGINS
 
 * [vim-colorschemes][]: a collection of colorschemes for vim
 * [vim-go][]: a suite of tools for golang
+* [vim-autoformat][]: code formatting
 * [vim-javascript][]: syntax highlighting and indenting for javascript
 * [vim-json][]: keyword highlighting and various customizations for json
 * [vim-node][]: tools and environment for developing with node.js in vim
@@ -102,6 +111,7 @@ My vimrc settings are based extensively on the following:
 [vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
 [vim-go]: https://github.com/fatih/vim-go.git
+[vim-autoformat]: https://github.com/Chiel92/vim-autoformat.git
 [vim-javascript]: https://github.com/pangloss/vim-javascript
 [vim-nodejs-complete]: https://github.com/myhere/vim-nodejs-complete
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete

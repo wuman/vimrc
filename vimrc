@@ -192,6 +192,9 @@ cnoremap <C-A> <Home>
 cnoremap <C-E> <End>
 cnoremap <C-K> <C-U>
 
+" vim-autoformat: use sourcebeautify shortcut
+nmap <leader>sb :Autoformat<CR>
+
 " ,p toggles paste mode
 nmap <leader>p :set paste!<BAR>set paste?<CR>
 
