@@ -1,9 +1,6 @@
 [submodule "bundle/jsruntime"]
 	path = bundle/jsruntime
 	url = https://github.com/michalliu/jsruntime.vim.git
-[submodule "bundle/jsoncodecs"]
-	path = bundle/jsoncodecs
-	url = https://github.com/michalliu/jsoncodecs.vim.git
 [submodule "bundle/sourcebeautify"]
 	path = bundle/sourcebeautify
 	url = https://github.com/vim-scripts/sourcebeautify.vim.git
