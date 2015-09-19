@@ -35,19 +35,6 @@ which prevents filetypes from being detected correctly.  In order to workaround
 the problem, simply comment out the `syntax on` line in `/etc/vim/vimrc`.
 
 
-#### jsruntime.vim ####
-
-A Javascript interpreter must be installed.
-
-For Ubuntu 32-bit, just use the built-in PyV8:
-
-    sudo ln -s ~/.vim/bundle/jsruntime/plugin/jsruntime/PyV8/libboost_python.so.1.50.0 /usr/lib
-
-For Ubuntu 64-bit, install node.js:
-
-    sudo apt-get install nodejs
-
-
 UPDATES
 -------
 
@@ -62,7 +49,6 @@ PRE-INSTALLED PLUGINS
 ---------------------
 
 * [vim-colorschemes][]: a collection of colorschemes for vim
-* [jsruntime.vim][]: runs javascript code directly in vim
 * [sourcebeautify][]: beautifies source code written in html, css, js, and json
 * [vim-go][]: a suite of tools for golang
 * [vim-javascript][]: syntax highlighting and indenting for javascript
@@ -113,7 +99,6 @@ My vimrc settings are based extensively on the following:
 + [Paul Rouget's vimrc](http://paulrouget.com/e/myconf/)
 
 [vim-colorschemes]: https://github.com/flazz/vim-colorschemes
-[jsruntime.vim]: https://github.com/michalliu/jsruntime.vim
 [vim-json]: https://github.com/elzr/vim-json
 [vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
