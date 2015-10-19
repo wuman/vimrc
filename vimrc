@@ -119,8 +119,9 @@ set ffs=unix,dos,mac         " use unix as standard file format
 "
 set nobackup                 " no *~ backup files
 
-if isdirectory('~/.cache/vim') == 0
-	:silent !install -dm700 ~/.cache/vim >/dev/null 2>&1
+if !isdirectory($HOME . "/.cache/vim")
+    call mkdir($HOME . "/.cache/vim", "p")
+"	:silent !install -dm700 ~/.cache/vim >/dev/null 2>&1
 endif
 set directory=~/.cache/vim
 
