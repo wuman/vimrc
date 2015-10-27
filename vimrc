@@ -19,7 +19,7 @@ set nocompatible             " not compatible with the old-fashion vi mode
 set history=100              " store 100 lines of history
 
 " enable basic mouse behavior such as resizing buffers.
-set mouse=a
+"set mouse=a
 if exists('$TMUX')  " Support resizing in tmux
   set ttymouse=xterm2
 endif
