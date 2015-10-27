@@ -276,6 +276,10 @@ let g:ctrlp_working_path_mode = 'c'
 autocmd vimenter * if !argc() | NERDTree | endif
 " close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" toggle nerdtree drawer
+nnoremap <leader>d :NERDTreeToggle<CR>
+" open nerdtree to the current file
+nnoremap <leader>f :NERDTreeFind<CR>
 
 " EasyMotion
 " let g:EasyMotion_leader_key = '<Leader>'
