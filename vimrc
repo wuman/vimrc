@@ -18,6 +18,11 @@ call pathogen#helptags()
 set nocompatible             " not compatible with the old-fashion vi mode
 set history=100              " store 100 lines of history
 
+" enable basic mouse behavior such as resizing buffers.
+set mouse=a
+if exists('$TMUX')  " Support resizing in tmux
+  set ttymouse=xterm2
+endif
 
 "
 " User Interface
@@ -298,9 +303,3 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_auto_type_info = 1
-
-" tmux
-if exists('$TMUX')  " Support resizing in tmux
-  set ttymouse=xterm2
-endif
-
