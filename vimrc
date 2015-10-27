@@ -242,7 +242,6 @@ autocmd BufNewFile,BufRead *.sass set ft=sass.css
 
 " md is markdown
 autocmd BufRead,BufNewFile *.md set filetype=markdown
-autocmd BufRead,BufNewFile *.md set spell
 
 "
 " Plugins
