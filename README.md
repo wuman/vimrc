@@ -77,6 +77,7 @@ PRE-INSTALLED PLUGINS
 * [snipmate-nodejs][]: snipmate snippet for node.js
 * [vim-airline][]: customized status/tabline for vim
 * [tmuxline][]: tmux statusline generator
+* [vim-tmux-navigator][]: navigate seamlessly between vim and tmux splits using a consistent set of hotkeys
 * [vim-signify][]: shows vcs diff in the gutter area
 * [syntastic][]: syntax checking for most programming languages
 * [ctrlp.vim][]: TextMate-like fuzzy files and buffers opener
@@ -127,6 +128,7 @@ My vimrc settings are based extensively on the following:
 [snipmate-nodejs]: https://github.com/jamescarr/snipmate-nodejs
 [vim-airline]: https://github.com/bling/vim-airline
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
+[vim-tmux-navigator]: https://github.com/christoomey/vim-tmux-navigator
 [vim-signify]: https://github.com/mhinz/vim-signify
 [syntastic]: https://github.com/scrooloose/syntastic
 [ctrlp.vim]: https://github.com/kien/ctrlp.vim
