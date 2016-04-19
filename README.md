@@ -73,7 +73,7 @@ PRE-INSTALLED PLUGINS
 * [pythoncomplete][]: omni completion for python
 * [javacomplete][]: omni completion for java
 * [OmniCppComplete][]: omni completion for c and c++
-* [delimitMate][]: automatically closes quotes, parenthesis, brackets, etc.
+* [auto-pairs][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * [Tabular][]: text filtering and alignment
 * [SuperTab-continued][]: insert completion via tab
@@ -124,7 +124,7 @@ My vimrc settings are based extensively on the following:
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
 [javacomplete]: https://github.com/vim-scripts/javacomplete
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
-[delimitMate]: https://github.com/Raimondi/delimitMate
+[auto-pairs]: https://github.com/jiangmiao/auto-pairs
 [vim-surround]: https://github.com/tpope/vim-surround
 [Tabular]: https://github.com/godlygeek/tabular
 [SuperTab-continued]: https://github.com/vim-scripts/SuperTab-continued.

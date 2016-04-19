@@ -55,9 +55,6 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json.git
-[submodule "bundle/delimitMate"]
-	path = bundle/delimitMate
-	url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate
@@ -103,3 +100,6 @@
 [submodule "bundle/vim-tmux-navigator"]
 	path = bundle/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
