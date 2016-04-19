@@ -24,7 +24,7 @@
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
+	url = https://github.com/easymotion/vim-easymotion.git
 [submodule "bundle/indent-motion"]
 	path = bundle/indent-motion
 	url = https://github.com/vim-scripts/indent-motion.git
