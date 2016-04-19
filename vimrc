@@ -9,7 +9,7 @@
 "
 " pathogen (must be placed in the beginning of this file)
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#incubate()
+call pathogen#infect()
 call pathogen#helptags()
 
 "
