@@ -82,6 +82,7 @@ PRE-INSTALLED PLUGINS
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * [snipmate-nodejs][]: snipmate snippet for node.js
 * [vim-airline][]: customized status/tabline for vim
+* [vim-airline-themes][]: a collection of themes for vim-airline
 * [tmuxline][]: tmux statusline generator
 * [vim-tmux-navigator][]: navigate seamlessly between vim and tmux splits using a consistent set of hotkeys
 * [vim-signify][]: shows vcs diff in the gutter area
@@ -133,6 +134,7 @@ My vimrc settings are based extensively on the following:
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 [snipmate-nodejs]: https://github.com/jamescarr/snipmate-nodejs
 [vim-airline]: https://github.com/bling/vim-airline
+[vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
 [vim-tmux-navigator]: https://github.com/christoomey/vim-tmux-navigator
 [vim-signify]: https://github.com/mhinz/vim-signify
