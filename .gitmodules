@@ -102,4 +102,4 @@
 	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
-	url = git@github.com:jiangmiao/auto-pairs.git
+	url = https://github.com/jiangmiao/auto-pairs.git
