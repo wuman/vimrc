@@ -261,11 +261,6 @@ au! BufRead,BufNewFile *.json set filetype=json
 " vim-javascript
 let javascript_fold=1
 
-" supertab https://github.com/ervandew/supertab
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
-
 " SnipMate
 let g:snipMateAllowMatchingDot = 0
 
