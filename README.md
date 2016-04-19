@@ -62,6 +62,14 @@ https://github.com/Valloric/YouCompleteMe#installation.
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer --gocode-completer --tern-completer
 
+Make sure that a global ``.tern-config`` file is added to the home directory,
+which should conform to http://ternjs.net/doc/manual.html#configuration.  Mine
+looks something like this:
+
+    {
+        "libs": ["browser", "jquery", "underscore"]
+    }
+
 
 UPDATES
 -------
