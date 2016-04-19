@@ -19,7 +19,7 @@ Use curl (for Mac OS X):
 
 or wget (for most UNIX platforms):
 
-    wget -O - https://raw.github.com/wuman/vimrc/master/auto-install.sh | sh
+    wget --quiet -O - https://raw.github.com/wuman/vimrc/master/auto-install.sh | sh
 
 You should also create your own custom excludes list to ignore tags:
 
