@@ -89,7 +89,7 @@ PRE-INSTALLED PLUGINS
 * [syntastic][]: syntax checking for most programming languages
 * [ctrlp.vim][]: TextMate-like fuzzy files and buffers opener
 * [indent-motion][]: quickly jump to beginning or end of current indent-delimited block
-* NERDTree
+* [NERDTree][]: file tree explorer
 * [NERDCommenter][]: easy commenting
 * EasyMotion
 * xmledit
@@ -141,6 +141,7 @@ My vimrc settings are based extensively on the following:
 [syntastic]: https://github.com/scrooloose/syntastic
 [ctrlp.vim]: https://github.com/kien/ctrlp.vim
 [indent-motion]: https://github.com/tmhedberg/indent-motion
+[NERDTree]: https://github.com/scrooloose/nerdtree
 [NERDCommenter]: https://github.com/scrooloose/nerdcommenter
 
 
