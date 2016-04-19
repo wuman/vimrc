@@ -76,7 +76,7 @@ PRE-INSTALLED PLUGINS
 * [auto-pairs][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
 * [Tabular][]: text filtering and alignment
-* [SuperTab-continued][]: insert completion via tab
+* [supertab][]: insert completion via tab
 * [vim-snipmate][] fork: snippet insertion like TextMate
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
@@ -128,7 +128,7 @@ My vimrc settings are based extensively on the following:
 [auto-pairs]: https://github.com/jiangmiao/auto-pairs
 [vim-surround]: https://github.com/tpope/vim-surround
 [Tabular]: https://github.com/godlygeek/tabular
-[SuperTab-continued]: https://github.com/vim-scripts/SuperTab-continued.
+[supertab]: https://github.com/ervandew/supertab
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
