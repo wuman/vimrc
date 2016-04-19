@@ -88,10 +88,10 @@ PRE-INSTALLED PLUGINS
 * [vim-signify][]: shows vcs diff in the gutter area
 * [syntastic][]: syntax checking for most programming languages
 * [ctrlp.vim][]: TextMate-like fuzzy files and buffers opener
+* [indent-motion][]: quickly jump to beginning or end of current indent-delimited block
 * NERDTree
 * NERDCommenter
 * EasyMotion
-* Indent-Motion
 * xmledit
 
 
@@ -140,6 +140,7 @@ My vimrc settings are based extensively on the following:
 [vim-signify]: https://github.com/mhinz/vim-signify
 [syntastic]: https://github.com/scrooloose/syntastic
 [ctrlp.vim]: https://github.com/kien/ctrlp.vim
+[indent-motion]: https://github.com/tmhedberg/indent-motion
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
