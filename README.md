@@ -59,6 +59,7 @@ https://github.com/Valloric/YouCompleteMe#installation.
     # ensure nodejs and npm are both installed for tern-completer
     # ensure go is installed for gocode-completer
     npm install -g typescript # optional
+    brew install cmake # needed to build
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer --gocode-completer --tern-completer
 
