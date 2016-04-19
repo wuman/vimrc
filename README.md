@@ -48,6 +48,20 @@ Install the tools used by vim-go in vim:
 
     :GoInstallBinaries
 
+#### YouCompleteMe ####
+
+YouCompleteMe is a powerful auto-completion plugin that augments OmniCompletion.
+The installation for this plugin is quite involved, but definitely worth the effort.
+
+More detailed instructions for platforms other than Mac OS X can be found at
+https://github.com/Valloric/YouCompleteMe#installation.
+
+    # ensure nodejs and npm are both installed for tern-completer
+    # ensure go is installed for gocode-completer
+    npm install -g typescript # optional
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.py --clang-completer --gocode-completer --tern-completer
+
 
 UPDATES
 -------
@@ -69,6 +83,7 @@ PRE-INSTALLED PLUGINS
 * [vim-json][]: keyword highlighting and various customizations for json
 * [vim-node][]: tools and environment for developing with node.js in vim
 * [vim-jade][]: syntax highlighting for jade templates
+* [YouCompleteMe][]: powerful code-completion engine for vim that augments omni completion
 * [vim-nodejs-complete][]: omni completion for node.js
 * [pythoncomplete][]: omni completion for python
 * [javacomplete][]: omni completion for java
@@ -120,6 +135,7 @@ My vimrc settings are based extensively on the following:
 [vim-go]: https://github.com/fatih/vim-go.git
 [vim-autoformat]: https://github.com/Chiel92/vim-autoformat.git
 [vim-javascript]: https://github.com/pangloss/vim-javascript
+[YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
 [vim-nodejs-complete]: https://github.com/myhere/vim-nodejs-complete
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
 [javacomplete]: https://github.com/vim-scripts/javacomplete
