@@ -114,8 +114,8 @@ PRE-INSTALLED PLUGINS
 * [indent-motion][]: quickly jump to beginning or end of current indent-delimited block
 * [NERDTree][]: file tree explorer
 * [NERDCommenter][]: easy commenting
+* [xmledit][]: auto-close xml/html tags
 * EasyMotion
-* xmledit
 
 
 PLUGIN INSTALLATION
@@ -166,6 +166,7 @@ My vimrc settings are based extensively on the following:
 [indent-motion]: https://github.com/tmhedberg/indent-motion
 [NERDTree]: https://github.com/scrooloose/nerdtree
 [NERDCommenter]: https://github.com/scrooloose/nerdcommenter
+[xmledit]: https://github.com/sukima/xmledit
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wuman/vimrc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

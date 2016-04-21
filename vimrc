@@ -268,6 +268,9 @@ let javascript_fold=1
 " SnipMate
 let g:snipMateAllowMatchingDot = 0
 
+" xmledit - enable auto-close tags for html files
+let g:xmledit_enable_html=1
+
 " ctrlp.vim
 let g:ctrlp_max_files = 500
 let g:ctrlp_working_path_mode = 'c'
