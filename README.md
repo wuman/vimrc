@@ -42,6 +42,12 @@ Install the following external formatting programs to enable vim-autoformat:
     brew install astyle
     brew install tidy-html5
 
+#### syntastic ####
+
+Install the following external checkers:
+
+    npm install -g jsonlint # enable json validation
+
 #### vim-go ####
 
 Install the tools used by vim-go in vim:
