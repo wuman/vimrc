@@ -46,7 +46,40 @@ Install the following external formatting programs to enable vim-autoformat:
 
 Install the following external checkers:
 
-    npm install -g jsonlint # enable json validation
+    # enable json validation
+    npm install -g jsonlint
+    # eslint for javascript + jsx + react
+    npm install -g eslint eslint-plugin-react
+
+Ensure that a `.eslintrc` file similar to the one below is present in either
+the project directory or the home directory:
+
+    {
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaVersion": 6,
+            "ecmaFeatures": {
+                "jsx": true
+            },
+            "sourceType": "module"
+        },
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "plugins": [
+            "react"
+        ],
+        "rules": {
+            "no-console": 0,
+            "strict": 0,
+            "quotes": [2, "single"],
+            "jsx-quotes": 1,
+            "react/jsx-no-undef": 1,
+            "react/jsx-uses-react": 1,
+            "react/jsx-uses-vars": 1
+        }
+    }
 
 #### vim-go ####
 
