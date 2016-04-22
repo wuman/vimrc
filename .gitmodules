@@ -106,3 +106,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/vim-react-snippets"]
+	path = bundle/vim-react-snippets
+	url = https://github.com/justinj/vim-react-snippets.git

@@ -105,6 +105,7 @@ PRE-INSTALLED PLUGINS
 * [vim-snippets][] (formerly SnipMate-snippets): snipmate snippets for common programming languages
 * [bootstrap-snippets][]: snipmate snippet for Twitter Bootstrap
 * [snipmate-nodejs][]: snipmate snippet for node.js
+* [vim-react-snippets][]: snipmate snippet for react
 * [vim-airline][]: customized status/tabline for vim
 * [vim-airline-themes][]: a collection of themes for vim-airline
 * [tmuxline][]: tmux statusline generator
@@ -158,6 +159,7 @@ My vimrc settings are based extensively on the following:
 [vim-snippets]: https://github.com/honza/vim-snippets
 [bootstrap-snippets]: https://github.com/bonsaiben/bootstrap-snippets
 [snipmate-nodejs]: https://github.com/jamescarr/snipmate-nodejs
+[vim-react-snippets]: https://github.com/justinj/vim-react-snippets
 [vim-airline]: https://github.com/bling/vim-airline
 [vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
 [tmuxline]: https://github.com/edkolev/tmuxline.vim
