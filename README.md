@@ -90,6 +90,7 @@ PRE-INSTALLED PLUGINS
 * [vim-autoformat][]: code formatting
 * [vim-javascript][]: syntax highlighting and indenting for javascript
 * [vim-json][]: keyword highlighting and various customizations for json
+* [vim-jsx][]: syntax highlighting and indenting for JSX
 * [vim-node][]: tools and environment for developing with node.js in vim
 * [vim-jade][]: syntax highlighting for jade templates
 * [YouCompleteMe][]: powerful code-completion engine for vim that augments omni completion
@@ -141,6 +142,7 @@ My vimrc settings are based extensively on the following:
 
 [vim-colorschemes]: https://github.com/flazz/vim-colorschemes
 [vim-json]: https://github.com/elzr/vim-json
+[vim-jsx]: https://github.com/mxw/vim-jsx
 [vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
 [vim-go]: https://github.com/fatih/vim-go.git
