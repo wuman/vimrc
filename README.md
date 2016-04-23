@@ -87,6 +87,8 @@ Install the tools used by vim-go in vim:
 
     :GoInstallBinaries
 
+You will need to do this every time you update to a new version of golang.
+
 #### YouCompleteMe ####
 
 YouCompleteMe is a powerful auto-completion plugin that augments OmniCompletion.
