@@ -42,6 +42,17 @@ Install the following external formatting programs to enable vim-autoformat:
     brew install astyle
     brew install tidy-html5
 
+You may want to add an optional `.jsbeautifyrc` with the following content to
+either your home directory or your project diretory:
+
+    {
+      "allowed_file_extensions": ["js", "json", "jsx", "jshintrc", "jsbeautifyrc"],
+      "brace_style": "collapse-preserve-inline",
+      "e4x": true
+    }
+
+Refer to https://github.com/beautify-web/js-beautify for more config options.
+
 #### syntastic ####
 
 Install the following external checkers:
