@@ -139,6 +139,7 @@ PRE-INSTALLED PLUGINS
 
 * [vim-colorschemes][]: a collection of colorschemes for vim
 * [vim-go][]: a suite of tools for golang
+* [editorconfig-vim][]: consistent coding styles across different editors using EditorConfig
 * [vim-autoformat][]: code formatting
 * [vim-javascript][]: syntax highlighting and indenting for javascript
 * [vim-json][]: keyword highlighting and various customizations for json
@@ -198,6 +199,7 @@ My vimrc settings are based extensively on the following:
 [vim-node]: https://github.com/moll/vim-node
 [vim-jade]: https://github.com/digitaltoad/vim-jade
 [vim-go]: https://github.com/fatih/vim-go.git
+[editorconfig-vim]: https://github.com/editorconfig/editorconfig-vim
 [vim-autoformat]: https://github.com/Chiel92/vim-autoformat.git
 [vim-javascript]: https://github.com/pangloss/vim-javascript
 [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
