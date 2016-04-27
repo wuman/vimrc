@@ -153,6 +153,7 @@ PRE-INSTALLED PLUGINS
 * [OmniCppComplete][]: omni completion for c and c++
 * [auto-pairs][]: automatically closes quotes, parenthesis, brackets, etc.
 * [vim-surround][]: shortcut for adding/changing/removing surroundings in pairs
+* [vim-unimpaired][]: shortcut for complementary pairs of mappings
 * [Tabular][]: text filtering and alignment
 * [emmet-vim][]: html/xml abbreviation expansion
 * [vim-snipmate][] fork: snippet insertion like TextMate
@@ -209,6 +210,7 @@ My vimrc settings are based extensively on the following:
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
 [auto-pairs]: https://github.com/jiangmiao/auto-pairs
 [vim-surround]: https://github.com/tpope/vim-surround
+[vim-unimpaired]: https://github.com/tpope/vim-unimpaired
 [Tabular]: https://github.com/godlygeek/tabular
 [emmet-vim]: https://github.com/mattn/emmet-vim
 [vim-snipmate]: https://github.com/garbas/vim-snipmate
