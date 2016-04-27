@@ -324,3 +324,10 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_mode_map = { "mode": "passive" }
+noremap  <C-w>r :SyntasticReset<CR>
+noremap! <C-w>r <Esc>:SyntasticReset<CR>
+noremap  <C-w>t :SyntasticToggle<CR>
+noremap! <C-w>t <Esc>:SyntasticToggle<CR>
+noremap  <C-w>c :SyntasticCheck<CR>
+noremap! <C-w>c <Esc>:SyntasticCheck<CR>
