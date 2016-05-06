@@ -123,6 +123,12 @@ looks something like this:
         "libs": ["browser", "jquery", "underscore"]
     }
 
+#### Patched Font for Airline ####
+
+You may want to install a patched font for vim-airline.  Many of them can be
+found at https://github.com/powerline/fonts.  But I personally prefer Monaco,
+which can be downloaded at https://gist.github.com/baopham/1838072.
+
 
 UPDATES
 -------
