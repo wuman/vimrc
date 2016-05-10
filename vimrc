@@ -314,6 +314,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_auto_type_info = 1
+let g:go_list_type = "quickfix"
 
 " syntastic
 set statusline+=%#warningmsg#
@@ -324,7 +325,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_mode_map = { "mode": "passive" }
+let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["go"] }
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 noremap  <C-w>r :SyntasticReset<CR>
 noremap! <C-w>r <Esc>:SyntasticReset<CR>
 noremap  <C-w>t :SyntasticToggle<CR>
