@@ -267,6 +267,7 @@ au! BufRead,BufNewFile *.json set filetype=json
 
 " vim-javascript
 let javascript_fold=1
+au! BufRead,BufNewFile *.es6 set filetype=javascript
 
 " SnipMate
 let g:snipMateAllowMatchingDot = 0
