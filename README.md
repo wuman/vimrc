@@ -47,6 +47,8 @@ either your home directory or your project diretory:
 
     {
       "allowed_file_extensions": ["js", "json", "jsx", "jshintrc", "jsbeautifyrc"],
+      "keep_array_indentation": true,
+      "indent_size": 2,
       "brace_style": "collapse-preserve-inline",
       "e4x": true
     }
