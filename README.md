@@ -63,36 +63,20 @@ Install the following external checkers:
     npm install -g jsonlint
     # eslint for javascript + jsx + react
     npm install -g eslint eslint-plugin-react
+    # eslint rules from airbnb
+    npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y
 
-Ensure that a `.eslintrc` file similar to the one below is present in either
+Ensure that a `.eslintrc.js` file similar to the one below is present in either
 the project directory or the home directory:
 
-    {
-        "extends": "eslint:recommended",
-        "parserOptions": {
-            "ecmaVersion": 6,
-            "ecmaFeatures": {
-                "jsx": true
-            },
-            "sourceType": "module"
-        },
-        "env": {
-            "browser": true,
-            "node": true
-        },
-        "plugins": [
-            "react"
-        ],
-        "rules": {
-            "no-console": 0,
-            "strict": 0,
-            "quotes": [2, "single"],
-            "jsx-quotes": 1,
-            "react/jsx-no-undef": 1,
-            "react/jsx-uses-react": 1,
-            "react/jsx-uses-vars": 1
-        }
-    }
+	module.exports = {
+	  extends: 'airbnb',
+	  plugins: ['react'],
+	  rules: {
+		'no-console': ['error', { allow: ['warn', 'error', 'trace'] }],
+		'react/prefer-es6-class': [0],
+	  },
+	};
 
 #### vim-go ####
 
