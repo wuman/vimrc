@@ -213,13 +213,6 @@ nmap <leader>p :set paste!<BAR>set paste?<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-" Disable use of tab in YouCompleteMe
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
-
-" vim-jsx enable jsx syntax highlighting in .js files too
-let g:jsx_ext_required = 0
-
 " Enable omni completion. (Ctrl-X Ctrl-O)
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=nodejscomplete#CompleteJS
@@ -269,6 +262,9 @@ au! BufRead,BufNewFile *.json set filetype=json
 let javascript_fold=1
 au! BufRead,BufNewFile *.es6 set filetype=javascript
 
+" vim-jsx enable jsx syntax highlighting in .js files too
+let g:jsx_ext_required = 0
+
 " SnipMate
 let g:snipMateAllowMatchingDot = 0
 
@@ -293,6 +289,11 @@ nnoremap <leader>f :NERDTreeFind<CR>
 " let g:EasyMotion_leader_key = '<Leader>'
 hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade  Comment
+
+" YouCompleteMe
+" disable use of tab
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
 
 " vim-go
 au FileType go nmap <leader>r <Plug>(go-run)
