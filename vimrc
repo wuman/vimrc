@@ -327,7 +327,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_mode_map = { "mode": "passive", "active_filetypes": ["go"] }
+let g:syntastic_mode_map = { 'mode': 'passive' }
+"let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['go'] }
 let g:syntastic_go_checkers = ['gometalinter']
 let g:syntastic_go_gometalinter_args =
     \ "--disable-all --enable=vet --enable=golint --enable=errcheck --deadline=5s " .
