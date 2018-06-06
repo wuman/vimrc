@@ -96,7 +96,7 @@ https://github.com/Valloric/YouCompleteMe#installation.
 
     # ensure nodejs and npm are both installed for tern-completer
     # ensure go is installed for gocode-completer
-    npm install -g typescript # optional
+    npm install -g typescript
     brew install cmake # needed to build
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer --gocode-completer --tern-completer
@@ -197,6 +197,8 @@ My vimrc settings are based extensively on the following:
 [vim-javascript]: https://github.com/pangloss/vim-javascript
 [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
 [vim-nodejs-complete]: https://github.com/myhere/vim-nodejs-complete
+[yats.vim]: https://github.com/HerringtonDarkholme/yats.vim
+[Tsuquyomi]: https://github.com/Quramy/tsuquyomi
 [pythoncomplete]: https://github.com/vim-scripts/pythoncomplete
 [javacomplete]: https://github.com/vim-scripts/javacomplete
 [OmniCppComplete]: https://github.com/vim-scripts/OmniCppComplete
