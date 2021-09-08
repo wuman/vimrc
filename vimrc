@@ -266,6 +266,7 @@ au! BufRead,BufNewFile *.es6 set filetype=javascript
 let g:jsx_ext_required = 0
 
 " SnipMate
+let g:snipMate = { 'snippet_version': 1 }
 let g:snipMateAllowMatchingDot = 0
 
 " xmledit - enable auto-close tags for html files
