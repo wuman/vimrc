@@ -276,6 +276,10 @@ let g:xmledit_enable_html=1
 let g:ctrlp_max_files = 500
 let g:ctrlp_working_path_mode = 'c'
 
+" fzf
+set rtp+=/usr/local/opt/fzf
+nnoremap <C-o> :FZF<CR>
+
 " NERDTree
 " open a NERDTree automatically when vim starts up if no files were specified
 autocmd vimenter * if !argc() | NERDTree | endif
